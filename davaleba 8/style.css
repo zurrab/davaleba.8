@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+}
+@font-face{
+    font-family:"inter";
+    src: url("./fonts/Inter-Bold.ttf");
+}
+
+.container-1{
+    width: 100%;
+    height: 880px;
+    background-color:  #050505;
+    position: relative;
+    
+}
+.picture-1{
+    padding-left: 39px;
+    padding-top: 59px;
+    position: absolute;
+    z-index: 2;
+}
+.text-1{
+    padding-top: 192px;
+    font-family: "inter";
+    font-size: 26.5px;
+    padding-left: 39px;
+    color: #D6D6D6;
+    position: absolute;
+}
+.picture-2{
+    position:absolute;
+    top: 0px;
+    left: 0px; 
+}
+.picture-3{
+    padding-left: 39px;
+    padding-top: 222px;
+}
+.text-2{
+    color: white;
+    text-align: left;
+    margin-left: 120px;
+    padding-top: 222px;
+    font-family: "inter";
+    font-size: 16px;
+}
+.container-2{
+    width: 777px;
+    height: 880px;
+    padding-left: 802px;
+    position: absolute;
+    margin-top: -702px;
+}
